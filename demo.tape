@@ -6,18 +6,23 @@ Set Width 900
 Set Height 560
 Set Padding 24
 Set Theme "Builtin Solarized Dark"
-Set TypingSpeed 35ms
+Set TypingSpeed 70ms
 
+Type 'exec bash --noprofile --norc -i'
+Enter
+Sleep 600ms
 Type 'export PATH="$PWD/target/debug:$PWD/demo/bin:$PATH"'
 Enter
+Sleep 400ms
 Type 'eval "$(pls init bash)"'
 Enter
-Type 'protected-touch ./secrets.txt'
+Sleep 500ms
+Type 'protected-touch /tmp/pls-demo-secret.txt'
 Enter
-Sleep 800ms
+Sleep 1400ms
 Type 'pls'
 Enter
-Sleep 1200ms
-Type 'ls -l ./secrets.txt'
+Sleep 1600ms
+Type 'ls -l /tmp/pls-demo-secret.txt'
 Enter
-Sleep 1800ms
+Sleep 2200ms

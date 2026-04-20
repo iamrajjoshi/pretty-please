@@ -1,8 +1,7 @@
-<svg width="640" height="180" viewBox="0 0 640 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="640" height="180" rx="32" fill="#F6F0E8"/>
-  <rect x="28" y="28" width="124" height="124" rx="32" fill="#111111"/>
-  <path d="M58 90C58 77.2975 68.2975 67 81 67H100C112.703 67 123 77.2975 123 90C123 102.703 112.703 113 100 113H81C68.2975 113 58 102.703 58 90Z" fill="#F6F0E8"/>
-  <path d="M78 88L92 102L118 76" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="184" y="108" fill="#111111" font-family="Avenir Next, Futura, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-4">pls</text>
-  <text x="428" y="70" fill="#7A6756" font-family="IBM Plex Mono, Menlo, Monaco, monospace" font-size="18">the polite sudo</text>
+<svg width="640" height="196" viewBox="0 0 640 196" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="28" y="42" width="88" height="88" rx="24" stroke="#111111" stroke-width="10"/>
+  <path d="M58 68L82 86L58 104" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 104H100" stroke="#111111" stroke-width="10" stroke-linecap="round"/>
+  <text x="148" y="102" fill="#111111" font-family="Avenir Next, Futura, Helvetica, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-5">pls</text>
+  <text x="152" y="156" fill="#6E6256" font-family="IBM Plex Mono, Menlo, Monaco, monospace" font-size="20">the polite sudo</text>
 </svg>
