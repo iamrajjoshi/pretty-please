@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ -z "${PLS_DEMO_ELEVATED:-}" ]]; then
+  echo "protected-touch: permission denied" >&2
+  exit 1
+fi
+
+touch "$1"
+echo "created $1"
