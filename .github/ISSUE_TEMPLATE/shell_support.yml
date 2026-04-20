@@ -1,0 +1,24 @@
+name: Shell support request
+description: Ask for a new shell integration or compatibility fix
+title: "[shell] "
+labels: ["shell"]
+body:
+  - type: input
+    id: shell
+    attributes:
+      label: Shell name and version
+      placeholder: "elvish 0.21.0"
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What should `pls` support?
+      description: Describe the shell behavior, history mechanism, or init pattern you need.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Links, examples, or prior art are all helpful here.
